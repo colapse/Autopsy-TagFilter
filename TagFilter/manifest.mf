@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: org.sleuthkit.autopsy.tagfilter
+OpenIDE-Module-Localizing-Bundle: org/sleuthkit/autopsy/modules/tagfilter/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Layer: org/sleuthkit/autopsy/modules/tagfilter/layer.xml
+
