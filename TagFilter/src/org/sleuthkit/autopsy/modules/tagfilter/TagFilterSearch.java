@@ -59,14 +59,6 @@ public class TagFilterSearch {
 		} catch (TskCoreException | SQLException ex) {
 			Exceptions.printStackTrace(ex);
 		}
-		
-		
-		
-		System.out.println(">>>>>>>>>  Query: \n\r"+createDbQuery());
-		System.out.println(">>>>>>>>>  Query Results: "+results.size());
-		
-		
-
 	}
 	
 	private void createTopComponentPanel(){
