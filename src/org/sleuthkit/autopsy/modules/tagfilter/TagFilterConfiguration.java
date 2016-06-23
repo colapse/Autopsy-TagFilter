@@ -268,7 +268,7 @@ public class TagFilterConfiguration extends javax.swing.JPanel {
 
         private void btnFilterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFilterActionPerformed
                 // TODO add your handling code here:
-		ArrayList<AbstractTagFilter> allTags = new ArrayList();//new ArrayList<>();
+		ArrayList<AbstractTagFilter> allTags = new ArrayList<>();
 		for(Component c : jPanelFilters.getComponents()){
 			if(c instanceof TagFilterConfigurationFilter){
 				TagFilterConfigurationFilter cf = (TagFilterConfigurationFilter)c;
